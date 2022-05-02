@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;700&display=swap');
+
+/* UTILITIES */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    color: #fff;
+    background: #121417;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: #252D37;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    padding: 25px 25px;
+}
+
+.card h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.card p {
+    color: #959EAC;
+    margin-bottom: 20px;
+}
+
+.markup {
+    font-size: 10px;
+    margin-top: 50px;
+}
+
+.markup a {
+    color: #959EAC;
+}
+
+.markup a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width:375px) {
+    .card {
+        width: 90%;
+        max-width: 400px;
+        margin: 0 10px;
+    }
+    .markup {
+        font-size: 10px;
+        margin: 50px 10px;
+        text-align: center;
+    }
+}
+
+
+/* RATING CARD */
+
+.card .rating-star {
+    background-color: hsla(216, 12%, 54%, .1);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.card .rating-star img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card .rating-click {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-right: 5px;
+}
+
+.card .rating-click .click {
+    background-color: hsla(216, 12%, 54%, .1);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.card .rating-click .click:hover {
+    background: #FB7413;
+    color: #fff;
+}
+
+.card .rating-click .click p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clicked {
+    color: yellow;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    background: #FB7413;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.btn:hover {
+    color: #FB7413;
+    background: #fff;
+}
+
+
+/* THANK YOU CARD*/
+
+.thankYouCard {
+    text-align: center;
+}
+
+.thankYouCard img {
+    margin-bottom: 20px;
+}
+
+.info {
+    background-color: hsla(216, 12%, 54%, .1);
+    border-radius: 20px;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.info p {
+    color: #FB7413;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
