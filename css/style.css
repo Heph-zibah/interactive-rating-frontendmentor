@@ -101,9 +101,12 @@ body {
     margin-right: 5px;
 }
 
+.card .rating-click .click.clicked {
+    background-color: #959EAC;
+}
+
 .card .rating-click .click:hover {
     background: #FB7413;
-    color: #fff;
 }
 
 .card .rating-click .click p {
@@ -113,8 +116,12 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.clicked {
-    color: yellow;
+.card .rating-click .click.clicked p {
+    color: #fff;
+}
+
+.card .rating-click .click p:hover {
+    color: #fff;
 }
 
 .btn {
@@ -141,6 +148,7 @@ body {
 
 .thankYouCard {
     text-align: center;
+    display: none;
 }
 
 .thankYouCard img {
