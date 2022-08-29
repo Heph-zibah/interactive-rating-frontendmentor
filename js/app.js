@@ -34,8 +34,7 @@ clicks.forEach(click => {
             click.classList.toggle('clicked');
             newClick.push(click);
         }
-        const para = document.querySelectorAll('.click p');
-        console.log(para)
+        const para = newClick[0].innerText;
         numRate.innerHTML = `You selected ${para} out of 5`;
     })
 
