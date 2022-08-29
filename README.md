@@ -38,7 +38,7 @@ PS: I was unable to get a screenshot through Mozilla Firefox, so I used Canva ap
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-using-html-css-and-javascript-4U0nJP4kfU)
 - Live Site URL: [Live Site URL](https://interactive-rating-frontendmentor.netlify.app/)
 
 ## My process
